@@ -1,0 +1,96 @@
+/**
+ * @name Cat Theme
+ * @version 0.0.9
+ * @description A cat theme :)
+ * @author eggy
+*/
+
+.tutorialContainer-2sGCg9 .listItem-GuPuDH .listItemWrapper-KhRmzM .wrapper-25eVIn .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
+    background-image: url("https://data.whicdn.com/images/322332387/original.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.tutorialContainer-2sGCg9 .listItem-GuPuDH .listItemWrapper-KhRmzM .wrapper-25eVIn .wrapper-1BJsBx .childWrapper-anI2G9 {
+    background-image: url("https://data.whicdn.com/images/322332387/original.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.homeIcon-FuNwkv {
+    width: 0px;
+}
+
+.appMount-3lHmkl,
+body {
+    background-image: var(--main-bg);
+    font-weight: lighter;
+}
+
+.appMount-3lHmkl * {
+    font-weight: 520;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.userPopout-xaxa6l {
+    background-color: #0000001a;
+    background-image: url("https://wallpapercave.com/wp/wp4705107.jpg")
+}
+
+.quickswitcher-3JagVE {
+    background-image: url("https://wallpapercave.com/wp/wp4705107.jpg")
+}
+
+div.layer-v9HyYc.disabledPointerEvents-1ptgTB>* {
+    background-image: url("https://wallpapercave.com/wp/wp4705107.jpg")
+}
+
+.layout-2DM8Md:hover * {
+    color: white;
+}
+
+:root {
+    --main-bg: url("https://wallpapercave.com/wp/wp4705107.jpg");
+    --background-primary: #0000001a;
+    --background-secondary: #0000001a;
+    --background-secondary-alt: #0000001a;
+    --background-tertiary: #0000001a;
+    --background-accent: #0000001a;
+    --background-floating: #0000001a;
+    --background-mobile-primary: #36393f;
+    --background-mobile-secondary: #2f3136;
+    --background-modifier-hover: black;
+    --background-modifier-active: black;
+    --background-modifier-selected: black;
+    --background-modifier-accent: black;
+    --header-primary: black;
+    --header-secondary: black;
+    --text-normal: black;
+    --text-muted: black;
+    --text-link: black;
+    --text-link-low-saturation: black;
+    --text-positive: black;
+    --text-warning: black;
+    --text-danger: black;
+    --text-brand: black;
+    --interactive-normal: black;
+    --interactive-hover: #dcddde;
+    --interactive-active: #fff;
+    --interactive-muted: #4f545c;
+    --channels-default: black;
+}
