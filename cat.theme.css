@@ -109,9 +109,9 @@ div.channelTextArea-rNsIhG>* {
     --background-mobile-primary: #36393f;
     --background-mobile-secondary: #2f3136;
     --background-modifier-hover: #ffea61;
-    --background-modifier-active: black;
+    --background-modifier-active: #ffea61;
     --background-modifier-selected: #ffea61;
-    --background-modifier-accent: black;
+    --background-modifier-accent: rgb(150, 142, 142);
     --header-primary: #ffea61;
     --header-secondary: #ffea61;
     --text-normal: #ffea61;
@@ -123,7 +123,7 @@ div.channelTextArea-rNsIhG>* {
     --text-danger: #ffea61;
     --text-brand: #ffea61;
     --interactive-normal: #ffea61;
-    --interactive-hover: #dcddde;
+    --interactive-hover: black;
     --interactive-active: black;
     --interactive-muted: #4f545c;
     --channels-default: #ffea61;
@@ -144,10 +144,6 @@ div.channelTextArea-rNsIhG>* {
 
 .avatar-1BDn8e.clickable-1bVtEA {
     border: 2px solid #faea84;
-}
-
-.tabBody-3YRQ8W {
-    z-index: auto;
 }
 
 .appMount-3lHmkl {
@@ -178,4 +174,28 @@ div[role="dialog"]>* {
 
 .icon-27yU2q {
     border: 2px solid #faea84;
+}
+
+
+/*discord titlebar logo changed to "CATCORD"*/
+
+.titleBar-AC4pGV .wordmark-2iDDfm svg {
+    width: 0;
+}
+
+.titleBar-AC4pGV .wordmark-2iDDfm::after {
+    content: "CATCORD";
+    position: absolute;
+    font-weight: bolder;
+    background: #faea84;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 15px;
+    top: 5px;
+    width: 135px;
+}
+
+.icon-22AiRD:hover>* {
+    color: black
 }
