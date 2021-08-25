@@ -1,9 +1,14 @@
 /**
  * @name Cat Theme
- * @version 0.0.9
+ * @version 0.9.0
  * @description A cat theme :)
  * @author eggy
+ * @authorId 462223589043863562
+ * @source https://github.com/eggytheegglmao/cat-betterdiscord-theme
 */
+
+
+/*home icon*/
 
 .tutorialContainer-2sGCg9 .listItem-GuPuDH .listItemWrapper-KhRmzM .wrapper-25eVIn .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
     background-image: url("https://data.whicdn.com/images/322332387/original.jpg");
@@ -17,19 +22,26 @@
     background-size: contain;
 }
 
+
+/*removing discord logo*/
+
 .homeIcon-FuNwkv {
     width: 0px;
 }
 
-.appMount-3lHmkl,
-body {
-    background-image: var(--main-bg);
-    font-weight: lighter;
-}
+
+/*font weight of the text*/
 
 .appMount-3lHmkl * {
-    font-weight: 520;
+    font-weight: 500;
 }
+
+.content-98HsJk {
+    z-index: auto;
+}
+
+
+/*changing link underlines and stuff*/
 
 a:link {
     text-decoration: none;
@@ -47,21 +59,43 @@ a:active {
     text-decoration: none;
 }
 
+
+/*user popouts background*/
+
 .userPopout-xaxa6l {
-    background-color: #0000001a;
-    background-image: url("https://wallpapercave.com/wp/wp4705107.jpg")
+    opacity: 1;
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://wallpapercave.com/wp/wp4705107.jpg")
 }
+
+
+/*quickswitcher or the dialog that pops up by pressing ctrl + k*/
 
 .quickswitcher-3JagVE {
-    background-image: url("https://wallpapercave.com/wp/wp4705107.jpg")
+    opacity: 1;
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://wallpapercave.com/wp/wp4705107.jpg")
 }
 
-div.layer-v9HyYc.disabledPointerEvents-1ptgTB>* {
-    background-image: url("https://wallpapercave.com/wp/wp4705107.jpg")
+div.layer-v9HyYc>* {
+    opacity: 1;
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://wallpapercave.com/wp/wp4705107.jpg");
 }
 
 .layout-2DM8Md:hover * {
-    color: white;
+    color: black;
+}
+
+div.channelTextArea-rNsIhG>* {
+    opacity: 1;
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://wallpapercave.com/wp/wp4705107.jpg");
+}
+
+.autocompleteInner-zh20B_.autocompleteInner-2mQ2AK {
+    opacity: 1;
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://wallpapercave.com/wp/wp4705107.jpg");
+}
+
+.container-1D34oG {
+    background: transparent;
 }
 
 :root {
@@ -74,23 +108,74 @@ div.layer-v9HyYc.disabledPointerEvents-1ptgTB>* {
     --background-floating: #0000001a;
     --background-mobile-primary: #36393f;
     --background-mobile-secondary: #2f3136;
-    --background-modifier-hover: black;
+    --background-modifier-hover: #ffea61;
     --background-modifier-active: black;
-    --background-modifier-selected: black;
+    --background-modifier-selected: #ffea61;
     --background-modifier-accent: black;
-    --header-primary: black;
-    --header-secondary: black;
-    --text-normal: black;
-    --text-muted: black;
-    --text-link: black;
-    --text-link-low-saturation: black;
-    --text-positive: black;
-    --text-warning: black;
-    --text-danger: black;
-    --text-brand: black;
-    --interactive-normal: black;
+    --header-primary: #ffea61;
+    --header-secondary: #ffea61;
+    --text-normal: #ffea61;
+    --text-muted: #ffea61;
+    --text-link: #ffea61;
+    --text-link-low-saturation: #ffea61;
+    --text-positive: #ffea61;
+    --text-warning: #ffea61;
+    --text-danger: #ffea61;
+    --text-brand: #ffea61;
+    --interactive-normal: #ffea61;
     --interactive-hover: #dcddde;
-    --interactive-active: #fff;
+    --interactive-active: black;
     --interactive-muted: #4f545c;
-    --channels-default: black;
+    --channels-default: #ffea61;
+    --member-listing-role-color: #000000;
+    --scrollbar-thin-thumb: #ffea61;
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: #ffea61;
+    --scrollbar-auto-track: #00000000;
+    --scrollbar-auto-scrollbar-color-thumb: #ffea61;
+    --scrollbar-auto-scrollbar-color-track: #00000000;
+    --deprecated-quickswitcher-input-background: black;
+}
+
+.grid-1nZz7S {
+    opacity: 1;
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://wallpapercave.com/wp/wp4705107.jpg")
+}
+
+.avatar-1BDn8e.clickable-1bVtEA {
+    border: 2px solid #faea84;
+}
+
+.tabBody-3YRQ8W {
+    z-index: auto;
+}
+
+.appMount-3lHmkl {
+    background-image: var(--main-bg);
+    background-size: cover
+}
+
+
+/*friends page background*/
+
+.theme-dark .container-1D34oG {
+    background-color: initial
+}
+
+
+/* nitro page background*/
+
+.applicationStore-1pNvnv {
+    background-color: initial
+}
+
+
+/* dialog background */
+
+div[role="dialog"]>* {
+    background-image: var(--main-bg);
+}
+
+.icon-27yU2q {
+    border: 2px solid #faea84;
 }
